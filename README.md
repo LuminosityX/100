@@ -1,9 +1,9 @@
 # Introduction
-This is the source code of Learning Fragment Self-Atention Embeddings for Image-Text Matching, ACM MM 2019.
+lihaoxuan 's work   
 
 ## Requirements
-* python 3.6
-* pytorch 0.4.1
+* python 3.8
+* pytorch 1.7.1
 
 ## Download data
 We use the precomputed image features provided by [SCAN](https://github.com/kuanghuei/SCAN). Please download data.zip from [SCAN](https://github.com/kuanghuei/SCAN).
@@ -13,6 +13,9 @@ We use the bert code from [BERT-pytorch](https://github.com/huggingface/pytorch-
 
 ## Training
 ```bash
-python train.py --data_path /path/to/data --data_name f30k_precomp --bert_path /path/to/uncased_L-12_H-768_A-12/
-python train.py --data_path /path/to/data --data_name coco_precomp --bert_path /path/to/uncased_L-12_H-768_A-12/
+python train.py --data_path /data --data_name f30k_precomp --bert_path /uncased_L-12_H-768_A-12/
+python train.py --data_path /data --data_name coco_precomp --bert_path /uncased_L-12_H-768_A-12/
 ```
+
+## Hope
+it will be true
